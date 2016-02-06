@@ -1,0 +1,15 @@
+http://www.spoj.com/problems/RPLN/ -done segment easy
+http://www.spoj.pl/problems/BRCKTS/ -done segment easy
+http://www.spoj.com/problems/KGSS/-done segment medium
+http://www.spoj.pl/problems/HORRIBLE/ -done lazy medium
+http://www.spoj.pl/problems/GSS1/  -done segment hard
+http://www.spoj.pl/problems/GSS3/ -done segment hard
+http://www.spoj.com/problems/GSS4/ -done segment hard
+http://www.spoj.pl/problems/FREQUENT/ -done segment hard
+https://www.codechef.com/problems/FLIPCOIN/-done lazy easy
+http://www.spoj.pl/problems/LITE/ -done lazy easy
+http://www.spoj.com/problems/SEGSQRSS/ -done lazy medium
+http://www.spoj.com/problems/MULTQ3/
+http://www.spoj.pl/problems/GSS2/-dont understand question
+http://www.spoj.pl/problems/HELPR2D2/
+http://www.spoj.pl/problems/KFSTD/
