@@ -1,5 +1,5 @@
 //Author:leninkumar
-//http://www.spoj.com/problems/GSS1/
+//http://www.spoj.com/problems/GSS3/
 //accepted code
 //we have to use divide and conquer max sum subarray concept
 //what we are storing in node and how we are merging left and right part is important
