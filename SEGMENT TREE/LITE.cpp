@@ -55,10 +55,6 @@ int query(int low, int high, int left, int right, int s) {
 		return segment[s];
 	//partial overlap
 	int mid = (low + high) / 2;
-	if (mid >= right)
-		return query(low, mid, left, right, 2 * s + 1);
-	else if (mid < left)
-		return query(mid + 1, high, left, right, 2 * s + 2);
 	int lval = query(low, mid, left, right, 2 * s + 1);
 	int rval = query(mid + 1, high, left, right, 2 * s + 2);
 	return lval + rval;
