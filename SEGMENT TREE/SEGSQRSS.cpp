@@ -1,6 +1,7 @@
 //Author : leninkumar
 //http://www.spoj.com/problems/SEGSQRSS/
 //accpted code
+//segment tree+lazy propagation
 #include <bits/stdc++.h>
 #define MAX 100009
 using namespace std;
