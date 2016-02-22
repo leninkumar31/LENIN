@@ -1,0 +1,92 @@
+#include <algorithm>
+#include <bitset>
+#include <cctype>
+#include <cmath>
+#include <cstdio>
+#include <cstring>
+#include <iostream>
+#include <map>
+#include <queue>
+#include <set>
+#include <stack>
+#include <string>
+#include <vector>
+using namespace std;
+#define fr(i,a,b) for (int i = (a), _b = (b); i <= _b; i++)
+#define frr(i,a,b) for (int i = (a), _b = (b); i >= _b; i--)
+#define rep(i,n) for (int i = 0, _n = (n); i < _n; i++)
+#define repr(i,n) for (int i = (n) - 1; i >= 0; i--)
+#define FOR(i,a,b) for (int i = (a), _b = (b); i <= _b; i++)
+#define FORD(i,a,b) for (int i = (a), _b = (b); i >= _b; i--)
+#define REP(i,n) for (int i = 0, _n = (n); i < _n; i++)
+#define REPD(i,n) for (int i = (n) - 1; i >= 0; i--)
+#define foreach(itr, a) for ( typeof(a.begin()) itr = a.begin(); itr != a.end(); it++ )
+#define SET(a, val) memset(a, val, sizeof(a))
+#define ull unsigned long long
+#define ll long long
+#define all(a) a.begin(), a.end()
+#define gc getchar_unlocked
+#define pb push_back
+#define mp make_pair
+#define ff first
+#define ss second
+#define AND(a,b) ((a) & (b))
+#define OR(a,b) ((a) | (b))
+#define XOR(a,b) ((a) ^ (b))
+#define sqr(x) ((x) * (x))
+#define PI 3.1415926535897932385
+#define INF INT_MAX
+#define MINF INT_MIN 
+#define EPS 1e-7
+#define MAXN 20000
+#define MOD 1000000007
+typedef pair<int, int> ii;
+typedef pair<int, ii> iii;
+typedef vector<ii> vii;
+typedef vector<int> vi;
+typedef vector<string> vs;
+template<typename T>inline T gcd(T a, T b){if (b == 0)return a;else return gcd(b, a % b);}
+template<typename T>inline T lcm(T a, T b){return (a * b) / gcd(a, b);}
+template<typename T>inline T min(T a, T b){return a>b?b:a;}
+template<typename T>inline T max(T a, T b){return a>b?a:b;}
+inline void fastRead_int(int *a)
+{
+    register char c=0;
+    while (c<33) c=getchar_unlocked();
+    *a=0;
+    while (c>33)
+    {
+        *a=*a*10+c-'0';
+        c=getchar_unlocked();
+    }
+}
+inline void fastWrite_int(int x){
+         register char buffor[35];
+         register int i=0;
+         do{
+               buffor[i++]=(x%10)+'0';
+               x/=10;
+            } while(x);
+           i--;
+            while(i>=0) putchar_unlocked(buffor[i--]);
+            putchar_unlocked('\n');
+}
+inline void fastRead_string(char *str)
+{
+    register char c=0;
+    register int i = 0;
+    while (c < 33)
+        c = getchar_unlocked();
+    while (c > 65)
+    {
+        str[i] = c;
+        c = getchar_unlocked();
+        i = i + 1;
+    }
+    str[i] = '\0';
+}
+int main () {
+   //your code goes here
+    return 0;
+}
+
